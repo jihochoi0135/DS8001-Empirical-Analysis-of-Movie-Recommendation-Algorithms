@@ -11,5 +11,5 @@
 <br>a. python ___.py
 <br>b. replace ___ with the file name.
 <br>c. e.g. python user_based.py
-<br>d. Each file, except Tuning, will generate a CSV file containing runtime and RMSE.
+<br>d. Each file, except Tuning and preprocess, will generate a CSV file containing runtime and RMSE.
 <br>e. Loading Master_large.csv take a long time.
