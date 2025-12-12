@@ -1,8 +1,11 @@
 import os
 import pandas as pd
 
-#os.chdir(r"C:/Users/Jason/OneDrive/TMU/Fall 25/DS8001/Project/ml-latest-small")
-os.chdir(r"C:/Users/Jason/OneDrive/TMU/Fall 25/DS8001/Project/ml-latest")
+
+#make sure you change the output file according to the dataset size, otherwise the test result will be funny to look at
+
+#os.chdir(r"C:/Users/Jason/OneDrive/TMU/Fall 25/DS8001/Project/ml-latest-small")     #<===== CHANGE ME
+os.chdir(r"C:/Users/Jason/OneDrive/TMU/Fall 25/DS8001/Project/ml-latest")     #<===== CHANGE ME
 
 ratings = pd.read_csv("ratings.csv")
 movies  = pd.read_csv("movies.csv")
