@@ -116,5 +116,5 @@ for n in sizes:
 seed = random.randint(1, 10_000_000)
 k_values = [1, 2, 3, 5, 8, 10, 15, 20, 30]
 
-
+exit_the_program = input("ENTER to exite the program")
 
