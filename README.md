@@ -7,16 +7,18 @@
     or generate using Pre_process.py, following the instructions below
 
 5. If you are running from the raw data from movielens
+<br>Get data here https://grouplens.org/datasets/movielens/ and recommended for education and development
+<br>   download both small and full
 <br>You will run Pre_process.py twice.
 <br>First Run: change file path to where ml-latest-small is, then change output file name to Master_small.csv
 <br>Second Run: change file path to where ml-latest is, then change output file name to Master_large.csv  <- everything involving this file takes a long time
 
-6. Edit the path of the dataset in each .py file:
+7. Edit the path of the dataset in each .py file:
 <br>a. Go to the bottom of the file.
 <br>b. Replace the file path to where "Master_small.csv" and "Master_large.csv" are located.
 
 
-7. After completing editing, go to the command prompt and run the following command.
+8. After completing editing, go to the command prompt and run the following command.
 <br>a. python ___.py
 <br>b. replace ___ with the file name.
 <br>c. e.g. python user_based.py
