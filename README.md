@@ -4,7 +4,7 @@
 2. Download both datasets, Master_small.csv and Master_large.csv
 3. Edit the path of the dataset in each .py file:
 <br>a. Go to the bottom of the file.
-<br>b. Replace the file path to where "Master_small.csv" and "Master_large.csv" is located.
+<br>b. Replace the file path to where "Master_small.csv" and "Master_large.csv" are located.
 
 
 4. After completing editing, go to the command prompt and run the following command.
